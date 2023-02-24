@@ -30,13 +30,13 @@ const ContentOnboard = () => {
             </div>
             <div className='contentX'>
                 <div className='contentX__account-choose'>
-                    <SelectAndLabelComponent dataString={[{ value: '1', label: 'Tất cả', data: 'dasdsa' },
+                    <SelectAndLabelComponent value={'Chọn nhóm tài khoản'} dataString={[{ value: '1', label: 'Tất cả', data: 'dasdsa' },
                     { value: '2', label: 'Công ty TMCP Bách Hóa Xanh', data: 'dasdsa' }, { value: '3', label: 'Công ty TNHH XYZ', data: 'dasdsa' }, { value: '4', label: 'Công ty TMCP Adora', data: 'ssdasd' }]}
 
                     ></SelectAndLabelComponent >
                 </div>
                 <div className='contentX__account-column'>
-                    <SelectAndLabelComponent dataString={[{ value: '1', label: 'Ẩn hiện cột', data: 'dasdsa' },]}></SelectAndLabelComponent>
+                    <SelectAndLabelComponent value={'Ẩn hiện cột'} dataString={[{ value: '1', label: 'Ẩn hiện cột', data: 'dasdsa' },]}></SelectAndLabelComponent>
                 </div>
                 <div className='contentX__search-input'>
                     <input className='contentX__search-input__textfield' placeholder='Tìm thiết bị theo tên, SKU, địa điểm, địa chỉ Mac' >

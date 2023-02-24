@@ -211,14 +211,14 @@ const ReportDetail = () => {
                             Theo tháng:
                         </div>
                         <div className="month-dropdown">
-                            <SelectAndLabelComponent dataString={[{ value: 'month', label: 'Theo tháng', data: 'dasdsa' },
+                            <SelectAndLabelComponent value={'Theo tháng'} dataString={[{ value: 'month', label: 'Theo tháng', data: 'dasdsa' },
                             { value: 'quy', label: 'Theo quý', data: 'dasdsa' }]}
 
                             ></SelectAndLabelComponent>
                         </div>
                         <div className="all-date">
-                            <SelectAndLabelComponent dataString={[{ value: '1', label: 'Tháng 1', data: 'Tháng 1' },
-                            { value: '2', label: 'Tháng 2', data: 'aaa' }, { value: '3', label: 'Tháng 3', data: 'dasdsa' }, { value: '4', label: 'Tháng 4', data: 'ssdasd' }, { value: '5', label: 'Tháng 5', data: 'ssdasd' }, { value: '6', label: 'Tháng 6', data: 'ssdasd' }, { value: '7', label: 'Tháng 7', data: 'ssdasd' }, { value: '8', label: 'Tháng 8', data: 'ssdasd' }, { value: '9', label: 'Tháng 9', data: 'ssdasd' }, { value: '10', label: 'Tháng 10', data: 'ssdasd' }, { value: '11', label: 'Tháng 11', data: 'ssdasd' }, { value: '12', label: 'Tháng 12', data: 'ssdasd' },]}
+                            <SelectAndLabelComponent value={'Tháng 1/2021'} dataString={[{ value: '1', label: 'Tháng 1/2021', data: 'Tháng 1' },
+                            { value: '2', label: 'Tháng 2/2021', data: 'aaa' }, { value: '3', label: 'Tháng 3/2021', data: 'dasdsa' }, { value: '4', label: 'Tháng 4/2021', data: 'ssdasd' }, { value: '5', label: 'Tháng 5/2021', data: 'ssdasd' }, { value: '6', label: 'Tháng 6/2021', data: 'ssdasd' }, { value: '7', label: 'Tháng 7/2021', data: 'ssdasd' }, { value: '8', label: 'Tháng 8/2021', data: 'ssdasd' }, { value: '9', label: 'Tháng 9/2021', data: 'ssdasd' }, { value: '10', label: 'Tháng 10/2021', data: 'ssdasd' }, { value: '11', label: 'Tháng 11/2021', data: 'ssdasd' }, { value: '12', label: 'Tháng 12/2021', data: 'ssdasd' },]}
 
                             ></SelectAndLabelComponent>
                         </div>

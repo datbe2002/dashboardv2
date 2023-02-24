@@ -1,4 +1,4 @@
-export const logo = require('./logo.png');
+export const logo = require('./logo2.png');
 export const imgAvatar = require('./avatar.jpg');
 export const languageVN = require('./vn.png');
 export const languageEN = require('./en.png');
