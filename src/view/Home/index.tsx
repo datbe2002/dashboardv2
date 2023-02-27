@@ -7,7 +7,6 @@ import SiderComponent2 from './SiderComponent/SiderComponent2';
 
 const Home = () => {
   const navigate = useNavigate();
-
   return <div className="home" style={{ backgroundColor: '#1E1E2E' }}>
     <Header2></Header2>
 
@@ -18,7 +17,7 @@ const Home = () => {
       </Col>
       <Col span={3} pull={18}>
 
-        <SiderComponent2></SiderComponent2>
+        <SiderComponent2 className={'sider'} setClassName={(className) => { }}></SiderComponent2>
       </Col>
     </Row>
   </div>;
